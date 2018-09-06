@@ -1,0 +1,12 @@
+.container {
+  width: 800px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+}
+.block {
+  margin-top: 80px;
+  opacity: 0;
+  padding-top: 40px;
+  transition: opacity 1s, padding-top 1s;
+}
