@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>懒加载</title>
+  <style>
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .image {
+      margin-top: 20px;
+      width: 800px;
+      height: 600px;
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059062326&di=5883a98b38ca5f7baf7fa7d6c5bdb205&imgtype=0&src=http%3A%2F%2Fpic1.16pic.com%2F00%2F49%2F83%2F16pic_4983642_b.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059088156&di=2596027dd2fd673640a7cc9ec06887a6&imgtype=0&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F04%2F39%2F16pic_439069_b.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059101354&di=8f659bc71aaf2392f1bc2657ce99b5ae&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F6f061d950a7b0208514ee43568d9f2d3562cc85b.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059115315&di=05b49ef041c59cfe1daf44a1d76a4923&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fac345982b2b7d0a2e2e04949c1ef76094b369a3d.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059124711&di=5c457a0407ffe8087787a1f88e00786c&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fadaf2edda3cc7cd96076830d3301213fb90e918f.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059136495&di=8b300e9cfa355a1f2be19186bd0371a7&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2Ff9e4ff20c95576da3d88a3132074e60c12da8225.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059151140&di=02814916e2664553a163e7a2339e0686&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fd01373f082025aafcc3e351ff1edab64024f1ad1.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059163524&di=bbe2d53d6820ff694e14371ec09ac08f&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fa50f4bfbfbedab646acef914fd36afc378311ea1.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059172626&di=8469159470af63c9cba402c7df4d3026&imgtype=0&src=http%3A%2F%2Fatt.bbs.duowan.com%2Fforum%2F201508%2F18%2F173910p7045xys71x4zfyh.jpg">
+    <img class="image" alt="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536059194346&di=d3179edddfc71723d8fed4de4cb304d6&imgtype=0&src=http%3A%2F%2Fd.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F72f082025aafa40fe871b36bad64034f79f019d4.jpg">
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
